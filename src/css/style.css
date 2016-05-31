@@ -17,6 +17,8 @@ body {
   width: 100px;
   padding: 0px;
   margin: 0px;
+  vertical-align: top;
+
 }
 
 h1 {
@@ -31,11 +33,6 @@ button {
   font-size: 12pt;
   height: 30px;
   width: 200px;
-}
-
-
-.rowA, .rowB, .rowC {
-  padding-bottom: 4px;
 }
 
 select {
@@ -53,7 +50,6 @@ select {
 #winBox {
   margin: 10px auto auto auto;
   border: 1px solid black;
-  /*display: inline-block;*/
   width: 306px;
   height: 100px;
   background-color: #E6E6E6;

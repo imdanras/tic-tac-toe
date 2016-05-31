@@ -21,40 +21,38 @@ var gameboard = [
 var gameWins = function() {
   //check for 'X' wins
   if (gameboard[0][0] === 1 && gameboard[0][1] === 1 && gameboard[0][2] === 1) {
-    window.alert("X Wins!");
-    winBox.innerHTML = "<X Wins!>";
+    winBox.textContent = "X Wins!";
   } else if (gameboard[1][0] === 1 && gameboard[1][1] === 1 && gameboard[1][2] === 1) {
-    window.alert("X Wins!");
+    winBox.textContent = "X Wins!";
   } else if (gameboard[2][0] === 1 && gameboard[2][1] === 1 && gameboard[2][2] === 1) {
-    window.alert("X Wins!");
+    winBox.textContent = "X Wins!";
   } else if (gameboard[0][0] === 1 && gameboard[1][0] === 1 && gameboard[2][0] === 1) {
-    window.alert("X Wins!");
+    winBox.textContent = "X Wins!";
   } else if (gameboard[0][1] === 1 && gameboard[1][1] === 1 && gameboard[2][1] === 1) {
-    window.alert("X Wins!");
+    winBox.textContent = "X Wins!";
   } else if (gameboard[0][2] === 1 && gameboard[1][2] === 1 && gameboard[2][2] === 1) {
-    window.alert("X Wins!");
+    winBox.textContent = "X Wins!";
   } else if (gameboard[0][0] === 1 && gameboard[1][1] === 1 && gameboard[2][2] === 1) {
-    window.alert("X Wins!");
+    winBox.textContent = "X Wins!";
   } else if (gameboard[0][2] === 1 && gameboard[1][1] === 1 && gameboard[2][0] === 1) {
-    window.alert("X Wins!");
+    winBox.textContent = "X Wins!";
     //Check for 'O' Wins
   } else if (gameboard[0][0] === 2 && gameboard[0][1] === 2 && gameboard[0][2] === 2) {
-    window.alert("O Wins!");
-    winBox.innerHTML = "<O Wins!>";
+    winBox.textContent = "O Wins!";
   } else if (gameboard[1][0] === 2 && gameboard[1][1] === 2 && gameboard[1][2] === 2) {
-    window.alert("O Wins!");
+    winBox.textContent = "O Wins!";
   } else if (gameboard[2][0] === 2 && gameboard[2][1] === 2 && gameboard[2][2] === 2) {
-    window.alert("O Wins!");
+    winBox.textContent = "O Wins!";
   } else if (gameboard[0][0] === 2 && gameboard[1][0] === 2 && gameboard[2][0] === 2) {
-    window.alert("O Wins!");
+    winBox.textContent = "O Wins!";
   } else if (gameboard[0][1] === 2 && gameboard[1][1] === 2 && gameboard[2][1] === 2) {
-    window.alert("O Wins!");
+    winBox.textContent = "O Wins!";
   } else if (gameboard[0][2] === 2 && gameboard[1][2] === 2 && gameboard[2][2] === 2) {
-    window.alert("O Wins!");
+    winBox.textContent = "O Wins!";
   } else if (gameboard[0][0] === 2 && gameboard[1][1] === 2 && gameboard[2][2] === 2) {
-    window.alert("O Wins!");
+    winBox.textContent = "O Wins!";
   } else if (gameboard[0][2] === 2 && gameboard[1][1] === 2 && gameboard[2][0] === 2) {
-    window.alert("O Wins!");
+    winBox.textContent = "O Wins!";
   }
 }
 
